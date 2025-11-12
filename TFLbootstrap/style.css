@@ -69,3 +69,9 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.nav-link.active {
+  color: var(--bs-warning) !important;
+  font-weight: 600;
+}
+
