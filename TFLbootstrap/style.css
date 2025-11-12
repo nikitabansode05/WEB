@@ -75,3 +75,13 @@ section {
   font-weight: 600;
 }
 
+#storeCarousel {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+#storeCarousel .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
