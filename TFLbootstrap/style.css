@@ -76,15 +76,31 @@ section {
   font-weight: 600;
 }
 
-#storeCarousel
-#homeCarousel .my-carousel {
-  max-height: 100px;
+#storeCarousel,
+#storeCarousel 
+.carousel-inner,
+#storeCarousel  .carousel-item {
+  height: 60vh !important;
   overflow: hidden;
 }
 
-#storeCarousel 
-#homeCarousel .my-carousel .carousel-item img {
-  height: 100px;
-  object-fit: cover;
+#storeCarousel .carousel-item img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;        /* ensures it fills without distortion */
+  object-position: center middle; /* shows lower part of the image */
+}
+
+#homeCarousel,
+#homeCarousel .carousel-inner,
+#homeCarousel .carousel-item {
+  height: 70vh !important; /* full height */
+  overflow: hidden;
+}
+
+#homeCarousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;        /* ensures it fills without distortion */
+  object-position: center middle; /* shows lower part of the image */
 }
