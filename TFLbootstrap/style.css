@@ -59,6 +59,7 @@ footer {
   transform: scale(1.03);
   transition: 0.3s ease-in-out;
 }
+
 .btn-outline-primary:hover {
   background-color: var(--bs-primary);
   color: #fff;
@@ -75,13 +76,15 @@ section {
   font-weight: 600;
 }
 
-#storeCarousel {
-  max-height: 500px;
+#storeCarousel
+#homeCarousel .my-carousel {
+  max-height: 100px;
   overflow: hidden;
 }
 
-#storeCarousel .carousel-item img {
-  height: 500px;
+#storeCarousel 
+#homeCarousel .my-carousel .carousel-item img {
+  height: 100px;
   object-fit: cover;
   width: 100%;
 }
