@@ -104,3 +104,32 @@ section {
   object-fit: cover;        /* ensures it fills without distortion */
   object-position: center middle; /* shows lower part of the image */
 }
+
+form {
+  background-color: #eee4e4;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+
+.btn-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #c44c7e;
+}
+
+.card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
