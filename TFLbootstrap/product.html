@@ -42,8 +42,8 @@
       <h2 class="text-center mb-5">Our Products</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <div class="card h-100">
-            <img src="images/redrose.jpg" class="card-img-top" alt="Red Roses">
+          <div class="card h-100 ">
+            <img src="images/rosepr.jpg" class="card-img-top h-75" alt="Red Roses">
             <div class="card-body text-center">
               <h5 class="card-title">Red Roses</h5>
               <p>₹499 | Elegant bouquet for special moments</p>
@@ -56,8 +56,8 @@
         </div>
 
         <div class="col-md-4">
-          <div class="card h-100">
-            <img src="images/tulip.jpg" class="card-img-top" alt="Tulip Delight">
+          <div class="card h-100 ">
+            <img src="images/tulippr.webp" class="card-img-top h-75" alt="Tulip Delight">
             <div class="card-body text-center">
               <h5 class="card-title">Tulip Delight</h5>
               <p>₹399 | Fresh tulips to brighten your day</p>
@@ -69,8 +69,8 @@
         </div>
 
         <div class="col-md-4">
-          <div class="card h-100">
-            <img src="images/sunflower.jpg" class="card-img-top" alt="Sunflower Joy">
+          <div class="card h-100 ">
+            <img src="images/sunflowerpr.jpg" class="card-img-top h-75" alt="Sunflower Joy">
             <div class="card-body text-center">
               <h5 class="card-title">Sunflower Joy</h5>
               <p>₹299 | Bring sunshine into your home</p>
@@ -87,12 +87,12 @@
 
   <!-- new code -->
 
-  <section class="container my-5">
+  <!-- <section class="container my-5">
   <h2 class="text-center mb-4">Our Featured Products</h2>
   <div class="row g-4">
     <div class="col-md-4">
       <div class="card">
-        <img src="images/rose.jpg" class="card-img-top" alt="Rose">
+        <img src="images/rose1.jpg" class="card-img-top" alt="Rose">
         <div class="card-body text-center">
           <h5 class="card-title">Red Rose Bouquet</h5>
           <p class="card-text">Rs. 599</p>
@@ -102,11 +102,14 @@
         </div>
       </div>
     </div>
-    <!-- Repeat 2 more product cards -->
+     Repeat 2 more product cards
   </div>
-</section>
+</section> -->
 
-    <script>
+
+<!-- Doubtfull -->
+<!--   ***********************************************************************************   -->
+    <!-- <script>
       AOS.init({
         duration: 1000,
         once: true
@@ -124,9 +127,51 @@
           </a>
         </div>
       </div>
-    </div>
+    </div>  -->
+<!--   ***********************************************************************************   -->
 
-    
+
+      <section class="container my-5">
+        <h2 class="text-center mb-4">Explore Our Collections</h2>
+
+        <!-- Tab Navigation -->
+        <ul class="nav nav-tabs justify-content-center" id="productTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="roses-tab" data-bs-toggle="tab" data-bs-target="#roses" type="button" role="tab">Roses</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tulips-tab" data-bs-toggle="tab" data-bs-target="#tulips" type="button" role="tab">Tulips</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="orchids-tab" data-bs-toggle="tab" data-bs-target="#orchids" type="button" role="tab">Orchids</button>
+          </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content mt-4" id="productTabContent">
+          <div class="tab-pane fade show active" id="roses" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="images/rosebouquet.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5>Red Rose Bouquet</h5>
+                    <p>Rs. 599</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="tulips" role="tabpanel">
+            <p class="text-center">Tulip collection coming soon 🌷</p>
+          </div>
+
+          <div class="tab-pane fade" id="orchids" role="tabpanel">
+            <p class="text-center">Orchid arrangements launching next week 🌸</p>
+          </div>
+        </div>
+      </section>
   <!-- Footer -->
   <!-- Copy from index.html -->
    <footer class="text-white text-center py-3">
