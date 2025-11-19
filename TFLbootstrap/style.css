@@ -142,3 +142,34 @@ form {
   0% { transform: scale(1); color: #fff; }
   100% { transform: scale(1.2); color: #2d0828; }
 }
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(233, 30, 99, 0.25);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.tab-content {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+h1 {
+  color: #5e0b70;
+  font-weight: bold;
+}
+
+.lead {
+  color: #555;
+}
+
+/* .card img {
+  height: 200px;
+  object-fit: cover;
+} */
