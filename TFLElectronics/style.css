@@ -1,5 +1,10 @@
 :root {
   --bs-primary: #ff6f61;
-  --bs-secondary: #645967;
+  --bs-secondary: #8a4e9b;
   --bs-success: #2ecc71;
+}
+
+
+.navbar.bg-primary {
+  background-color: #3f3d3f !important;
 }
