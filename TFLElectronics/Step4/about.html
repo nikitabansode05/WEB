@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> TFL Electronics </title>
+        <title>About Page</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 
     <body>
-        
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -23,6 +22,7 @@
                 <li class="nav-item"><a class="nav-link" href="catalog.html">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
             </ul>
             </div>
 
@@ -45,65 +45,60 @@
             </li>
         </div>
         </nav>
-
-        <!-- Hero Banner -->
-        <div class="container-fluid bg-secondary text-white text-center p-5  shadow">
-            <h1 class="display-5 fw-bold">Welcome to Transflower Store 🌸</h1>
-            <p class="text-muted text-center fs-5">Your one-stop shop for smart tech and lifestyle products</p>
-            <p class="lead text-muted fs-5">Where Technology Blooms with Style</p>
-            <a href="catalog.html" class="btn btn-dark btn-lg  shadow-lg">Shop Now</a>
+        <!-- User -->
+        <div class="mt-5">
+        <div class="d-flex align-items-center border p-3 rounded shadow-sm">
+        <img src="../images/user.png" class="rounded-circle me-3" width="80" height="80" alt="User">
+        <div>
+            <h6 class="fw-bold mb-1">Ravi Tambade</h6>
+            <p class="mb-0 text-muted">Mentorship is not about teaching, it’s about awakening curiosity.</p>
+        </div>
+        </div>
         </div>
 
 
-        <h1 class="text-center text-uppercase fw-bold text-secondary fs-3">Transflower Store</h1>
-        <p class="text-muted text-center fs-5">Smart Products, Smarter Living</p>
+        <!-- Alert -->
 
-        <!-- Product -->
-        <div class="container my-5">
-        <h1 class="text-center mb-4">Our Products</h2>
-        <div class="row g-4">
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="row">
-            <div class="card shadow-lg border-1 rounded-4">
-                <img src="../images/earbuds.webp" class="card-img-top" alt="Product 1">
-                <div class="card-body text-center">
-                <h5 class="card-title">Wireless Earbuds</h5>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-                </div>
-            </div>
-            </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card shadow-lg border-1 rounded-4">
-                <img src="../images/smartwatch.webp" class="card-img-top" alt="Product 2">
-                <div class="card-body text-center">
-                <h5 class="card-title">Smart Watch</h5>
-                <p class="card-text">$129.99</p>
-                <a href="#" class="btn btn-primary">Buy Now</a>
-                </div>
-            </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-lg border-1 rounded-4">
-                    <img src="../images/smartphone.jpg" class="card-img-top" alt="Product 3">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Smart Phone</h5>
-                        <p class="card-text">$1500</p>
-                        <a href="#" class="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- <div class="alert alert-success" role="alert">
+            Registration successful! 🎉
         </div>
 
-        <!-- Offer -->
-        <div class="p-4 bg-secondary text-white rounded-3 shadow">
-            <h4 class="text-warning">Special Offer!</h4>
-            <p>Get 20% off on all smart devices.</p>
+        <div class="alert alert-danger" role="alert">
+            Error: Please check your input fields.
+        </div> -->
+
+        <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Note:</strong> Your session will expire soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div> -->
+
+
+        <!-- Modal -->
+
+        <!-- Button trigger -->
+        <div class="text-center p-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infoModal">
+        Show Info
+        </button>
+        </div>
+
+        <!-- Modal Structure -->
+        <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoModalLabel">About Transflower Store</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Transflower Store is your one-stop shop for smart devices and accessories!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success"><a href="catalog.html" class="text-white text-decoration-none">Visit Store</a></button>
+            </div>
+            </div>
+        </div>
         </div>
 
         <!-- Footer -->

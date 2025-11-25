@@ -1,0 +1,42 @@
+:root {
+  --bs-primary: #ff6f61;
+  --bs-secondary: #8a4e9b;
+  --bs-success: #2ecc71;
+}
+
+
+.navbar.bg-primary {
+  background-color: #3f3d3f !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.fixed-card {
+  width: 25rem;
+  height: 45rem;   /* you can increase/decrease */
+}
+
+.vertical-card img {
+  height: 500px;        /* keep image size same */
+  object-fit: cover;    /* crop image if needed */
+}
+
+.horizontal-card img{
+  height: 250px;
+  width: 415px;
+}
+.shadow-xl {
+  box-shadow: 0 1.25rem 1.75rem rgba(0, 0, 0, 0.45) !important;
+}
